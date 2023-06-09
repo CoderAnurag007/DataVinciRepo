@@ -7,7 +7,7 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import { AppProvider } from "@shopify/polaris";
-import Home from "./pages/Home";
+
 import Dashboard from "./pages/Dashboard";
 import AccountProvider from "./context/AccountContext";
 // import "@shopify/polaris/dist/styles.css";
@@ -21,7 +21,7 @@ const App = () => {
       <AccountProvider>
         <BrowserRouter>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<Dashboard />} />
             <Route exact path="/Dashboard" element={<Dashboard />} />
           </Routes>
         </BrowserRouter>
