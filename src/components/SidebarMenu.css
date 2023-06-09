@@ -1,0 +1,113 @@
+.company_img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+}
+.comapany_logo {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.company-detail div:nth-child(1) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.fade_heading {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.452);
+}
+
+.sidebar_menu {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-width: 12rem;
+  /* gap: 1rem; */
+}
+
+.menubtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.menubtn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.menu_nav {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+  border-bottom: 2px solid rgba(128, 128, 128, 0.233);
+  /* width: 100%; */
+}
+.menu_nav svg {
+  width: 23px;
+  height: 23px;
+}
+.menu_nav div {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+}
+
+.sales_nav {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+  border-bottom: 2px solid rgba(128, 128, 128, 0.233);
+}
+.sales_nav svg {
+  width: 23px;
+  height: 23px;
+}
+.sales_nav div {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+}
+.settings_nav {
+  /* padding-left: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+  bottom: 0;
+}
+.settings_nav svg {
+  width: 23px;
+  height: 23px;
+}
+.settings_nav div {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu_nav_btns {
+  /* background-color: aqua; */
+  padding: 8px;
+  margin-top: 5px;
+  transition: 0.2s all;
+  border-radius: 8px;
+}
+.menu_nav_btns:hover {
+  color: white;
+  background-color: rgb(160, 0, 253);
+}
