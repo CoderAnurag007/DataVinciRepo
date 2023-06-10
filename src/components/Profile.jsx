@@ -8,9 +8,11 @@ const Profile = () => {
   return (
     <>
       <div
-        style={{
-          transform: !sidebar && "translateX(-80px)",
-        }}
+        style={
+          {
+            // transform: !sidebar && "translateX(-80px)",
+          }
+        }
         className="profile"
       >
         <div className="profile_img"></div>

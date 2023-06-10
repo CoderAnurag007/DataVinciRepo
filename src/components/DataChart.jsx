@@ -49,9 +49,11 @@ const DataChart = () => {
   return (
     <>
       <div
-        style={{
-          transform: !sidebar && "translateX(-80px)",
-        }}
+        style={
+          {
+            // transform: !sidebar && "translateX(-80px)",
+          }
+        }
         className="datachart_container"
       >
         <div className="greet_box">
@@ -82,15 +84,18 @@ const DataChart = () => {
           </div>
         </div>
         <div
-          style={{
-            width: "600px",
-            height: "300px",
-            background: "rgb(248, 246, 246)",
-            borderRadius: "12px",
-            marginLeft: "10px",
-            padding: "10px",
-            display: "flex",
-          }}
+          // style={{
+          //   // maxWidth: "590px",
+          //   maxHeight: "300px",
+          //   background: "rgb(248, 246, 246)",
+          //   borderRadius: "12px",
+          //   marginLeft: "10px",
+          //   padding: "10px",
+          //   display: "flex",
+          //   alignItems: "center",
+          //   justifyContent: "center",
+          // }}
+          className="bar_div"
         >
           <Line data={chartData} />
 

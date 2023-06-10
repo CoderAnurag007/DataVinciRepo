@@ -1,15 +1,38 @@
 .profile {
   max-height: 100%;
   /* overflow: scroll; */
-  width: 100%;
+  width: 20rem;
   position: relative;
   display: flex;
   min-width: 15rem;
   flex-direction: column;
   padding-top: 7rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  margin-top: 10px;
   transition: 0.3s all;
 }
+@media (max-width: 1040px) {
+  .profile {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_img {
+    top: 4rem;
+  }
+}
 
+@media (max-width: 760px) {
+  .profile {
+    width: 90%;
+  }
+}
+@media (max-width: 550px) {
+  .datachart_container {
+    width: 90%;
+  }
+}
 .admin {
   text-align: center;
   font-weight: bold;
@@ -27,9 +50,11 @@
   height: 90px;
   position: absolute;
   left: 50%;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   top: 3.3rem;
   transform: translate(-50%, -50%);
-  background: url("../../public/avatar.png");
+  background: url("../../public/profile.jfif");
   border-radius: 50%;
   background-position: center;
   background-size: cover;
@@ -45,6 +70,8 @@
   width: 80%;
   display: flex;
   align-items: center;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   height: 3rem;
   background: rgba(255, 181, 193, 0.285);
   border-radius: 4px;
@@ -56,9 +83,11 @@
   background-color: rgba(255, 175, 252, 0.301);
   position: relative;
   padding: 10px;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   width: 80%;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: bold;
   border-radius: 8px;
   height: 3rem;
@@ -89,7 +118,9 @@
   padding: 10px;
   width: 80%;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   font-weight: bold;
   border-radius: 8px;
   height: 3rem;
@@ -120,8 +151,10 @@
   padding: 10px;
   width: 80%;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: bold;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   border-radius: 8px;
   height: 3rem;
 }
@@ -149,9 +182,11 @@
   background-color: rgba(255, 175, 175, 0.301);
   position: relative;
   padding: 10px;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   width: 80%;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: bold;
   border-radius: 8px;
   height: 3rem;

@@ -9,8 +9,9 @@ const SidebarMenu = () => {
   return (
     <div
       style={{
-        transform: sidebar ? "translateX(0)" : "translateX(-150px)",
+        // transform: sidebar ? "translateX(0)" : "translateX(-150px)",
         color: !sidebar && "white !important",
+        left: sidebar ? "0" : "-12rem",
         transition: "0.4s all",
       }}
       className="sidebar_menu"

@@ -4,8 +4,43 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  position: relative;
+  /* margin-top: 10px; */
   transition: 0.3s all;
+  padding-bottom: 10px;
   font-family: "Nunito", sans-serif !important;
+}
+@media (max-width: 1040px) {
+  .datachart_container {
+    width: 80%;
+  }
+}
+@media (max-width: 760px) {
+  .score_box {
+    /* width: 80%; */
+    /* border: 1px solid red; */
+    flex-direction: column;
+  }
+  .score_card1 {
+    width: 80% !important;
+    margin: auto;
+  }
+  .score_card2 {
+    width: 80% !important;
+    margin: auto;
+  }
+  .score_card3 {
+    width: 80% !important;
+    margin: auto;
+  }
+  .greet_box {
+    text-align: center;
+  }
+}
+@media (max-width: 550px) {
+  .datachart_container {
+    width: 90%;
+  }
 }
 
 .greet_box {
@@ -42,6 +77,8 @@
   background-repeat: no-repeat;
   border-radius: 12px;
   display: flex;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   font-weight: 600;
   font-size: 0.9rem;
   color: rgba(247, 247, 247, 0.979);
@@ -54,6 +91,8 @@
   border-radius: 12px;
   display: flex;
   font-weight: 600;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   font-size: 0.9rem;
   color: rgba(247, 247, 247, 0.979);
   padding: 4px;
@@ -71,10 +110,27 @@
   padding: 4px;
   height: 4rem;
   border-radius: 12px;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   display: flex;
   background-image: url("../../public/blob3.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  justify-content: center;
+}
+.bar_div {
+  width: 90%;
+  position: relative;
+  max-height: 300px;
+  background: rgb(248, 241, 255);
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+  border-radius: 12px;
+
+  /* margin-left: 10px; */
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  align-items: center;
   justify-content: center;
 }
