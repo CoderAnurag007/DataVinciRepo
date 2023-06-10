@@ -2,15 +2,17 @@
   max-height: 100%;
   /* overflow: scroll; */
   width: 20rem;
-  height: 100%;
+  min-height: 80vh;
   position: relative;
   display: flex;
+  box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
+
   min-width: 15rem;
   flex-direction: column;
   padding-top: 7rem;
   padding-bottom: 1rem;
   align-items: center;
-  /* margin-top: 10px; */
+  margin-top: 10px;
   transition: 0.3s all;
 }
 @media (max-width: 1040px) {
@@ -32,6 +34,7 @@
 @media (max-width: 550px) {
   .datachart_container {
     width: 90%;
+    margin-top: 0px;
   }
 }
 .admin {
@@ -69,6 +72,7 @@
   padding-left: 10px;
   border-left: 6px solid rgb(255, 169, 175);
   width: 80%;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
@@ -91,7 +95,7 @@
   margin-top: 11px;
   font-weight: bold;
   border-radius: 8px;
-  height: 3rem;
+  height: 2.5rem;
 }
 
 .reach_box1_grow {
@@ -101,6 +105,7 @@
   border-radius: 8px;
   padding: 4px;
   font-size: small;
+  top: 20px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -124,7 +129,7 @@
 
   font-weight: bold;
   border-radius: 8px;
-  height: 3rem;
+  height: 2.5rem;
 }
 
 .reach_box2_grow {
@@ -135,6 +140,7 @@
   padding: 4px;
   font-size: small;
   font-weight: bold;
+  top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,7 +163,7 @@
   box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
 
   border-radius: 8px;
-  height: 3rem;
+  height: 2.5rem;
 }
 
 .reach_box3_grow {
@@ -167,6 +173,7 @@
   border-radius: 8px;
   padding: 4px;
   font-size: small;
+  top: 20px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -190,7 +197,7 @@
   margin-top: 11px;
   font-weight: bold;
   border-radius: 8px;
-  height: 3rem;
+  height: 2.5rem;
 }
 
 .reach_box4_grow {
@@ -201,6 +208,7 @@
   padding: 4px;
   font-size: small;
   font-weight: bold;
+  top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;

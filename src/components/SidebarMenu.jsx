@@ -11,7 +11,7 @@ const SidebarMenu = () => {
       style={{
         // transform: sidebar ? "translateX(0)" : "translateX(-150px)",
         color: !sidebar && "white !important",
-        left: sidebar ? "0" : "-12rem",
+        left: sidebar ? "0" : "-13rem",
         transition: "0.4s all",
       }}
       className="sidebar_menu"
@@ -61,7 +61,12 @@ const SidebarMenu = () => {
           <div className="fade_heading">Growth & Marketing</div>
         </div>
       </div>
-      <div className="menu_nav">
+      <div
+        style={{
+          borderBottom: !sidebar && "none",
+        }}
+        className="menu_nav"
+      >
         <div className="fade_heading ">Menu</div>
         <div className="menu_nav_btns">
           {" "}
@@ -139,7 +144,12 @@ const SidebarMenu = () => {
           Customers
         </div>
       </div>
-      <div className="sales_nav">
+      <div
+        style={{
+          borderBottom: !sidebar && "none",
+        }}
+        className="sales_nav"
+      >
         <div className="fade_heading ">Sales Channel</div>
         <div className="menu_nav_btns">
           <svg
@@ -194,7 +204,12 @@ const SidebarMenu = () => {
         </div>
       </div>
 
-      <div className="settings_nav">
+      <div
+        style={{
+          borderBottom: !sidebar && "none",
+        }}
+        className="settings_nav"
+      >
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

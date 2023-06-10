@@ -1,16 +1,13 @@
 .dashboard {
-  /* width: 100vw; */
-
   display: flex;
   height: max-content;
   justify-content: center;
-  padding-top: 10px;
   position: relative;
   gap: 20px;
-  margin-bottom: 1rem;
-  /* padding: 10px; */
+  /* margin-bottom: 1rem; */
   flex-wrap: wrap;
-  background: rgb(238, 239, 238);
+  /* background: rgb(226, 228, 237); */
+  background: #effffd;
 }
 .dashboard > div {
   /* border: 2px solid red; */

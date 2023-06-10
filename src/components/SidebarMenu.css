@@ -28,7 +28,6 @@
   flex-direction: column;
   min-width: 15rem;
   height: 100%;
-  left: 0;
   box-shadow: 0px 5px 10px rgba(151, 151, 151, 0.276);
   z-index: 2;
   /* gap: 1rem; */
@@ -36,7 +35,7 @@
 
 .menubtn {
   position: absolute;
-  right: 10px;
+  right: 5px;
   top: 10px;
 }
 

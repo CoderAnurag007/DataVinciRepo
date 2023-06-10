@@ -20,7 +20,7 @@ const Profile = () => {
         <div className="admin">Admin</div>
         <div className="regno"></div>
 
-        <div className="reach_head">Reach Progress</div>
+        <div className="reach_head">Reach Progress !!</div>
         <div className="reach_box1">
           Technical
           <div className="reach_box1_grow">
